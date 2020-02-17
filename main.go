@@ -13,6 +13,7 @@ func main() {
 		fmt.Println(numero)
 		sum += numero
 	}
-	// se imprime el sumatorio del arreglo
-	fmt.Println(sum)
+	//Realizar el promedio
+	numeroElementos := float64(len(numeros))
+	fmt.Printf("el promedio es: %0.2f\n", sum/numeroElementos)
 }
