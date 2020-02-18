@@ -1,4 +1,4 @@
-package main
+package lector
 
 import (
 	"bufio"
